@@ -14,7 +14,7 @@ cd ns-allinone-3.28.1
 ./waf configure
 ./waf 
 
-2) Descargue el código del marco de simulación p1906.1 de: https://github.com/ArmasSantiago/escenario1 y copia y pega la carpeta p1906 dentro de la carpeta ns-3.28.1/src
+2) Descargue el código del marco de simulación p1906.1 de: https://github.com/ArmasSantiago/escenario1 copia y pega la carpeta p1906 dentro de la carpeta ns-3.28.1/src
 
 3) Compilar de nuevo el simulador ns-3
 
