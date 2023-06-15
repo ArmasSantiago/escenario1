@@ -1,0 +1,29 @@
+
+     P1906.1 Escenario 1
+=====================================
+
+Para más información, consulte la página oficial:
+https://www.nsnam.org/docs/release/3.28/tutorial/singlehtml/index.html
+
+== Cómo instalar la herramienta ==
+1) descargar y compilar la versión de NS-3 3.28.1
+
+https://www.nsnam.org/releases/ns-3-28/download/
+unzip ns-allinone-3.28.1.tar.bz2
+cd ns-allinone-3.28.1
+./waf configure
+./waf 
+
+2) Descargue el código del marco de simulación p1906.1 de: https://github.com/ArmasSantiago/escenario1 y copia y pega la carpeta p1906 dentro de la carpeta ns-3.28.1/src
+
+3) Compilar de nuevo el simulador ns-3
+
+./waf configure
+./waf 
+
+== Ejecuta el escenario == 
+El escenario 1 se guarda en la carpeta ns-3.28.1/src/p1906/mol.example.cc
+
+cp ns-3.28.1/p1906/example/mol-example.cc scratch
+./waf --run scratch/mol-example
+
